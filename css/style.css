@@ -1,0 +1,317 @@
+body{
+    margin: 0;
+}
+
+.home{
+    width: 100%;
+    height: 110vh;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 80px;
+}
+.logo{
+    float: left;
+    text-align: center;
+}
+.logo img{
+    width: 45%;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.nav{
+    float: right;
+    margin-right: 150px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+.nav li{
+    margin: 20px;
+    
+}
+.clr{
+    clear: both;
+}
+
+.home-content{
+    /* background-color: teal; */
+    text-align: center;
+    padding: 250px;
+}
+.home-content p,h1,button{
+    color: white;
+}
+.home-content p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.home-content h1{
+    font-size: 50px;
+}
+
+#btn1{
+    background-color: #8e7754;
+    border: 1px #8e7754 solid;
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 20px;
+}
+#btn2{
+    background-color: transparent;
+    border: 1px white solid;
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.shape{
+    width: 40px;
+    height: 60px;
+    border: solid white 1px;
+    margin:100px auto;
+    border-radius: 30px;
+    
+}
+
+
+
+
+.about{
+    padding-bottom: 100px;
+}
+.about-image{
+    width: 50%;
+    float: left;
+}
+.about-image img{
+    width: 80%;
+    padding-left: 150px;
+    
+}
+.about-content{
+    width: 45%;
+    float: right;
+    margin-top: 45px;
+}
+.about-content .content h2{
+    margin-bottom: 40px;
+}
+.about-content p{
+    color: #686868;
+}
+.about-content .icon-list{
+    margin-top: 30px;
+}
+.about-content .icon-list .icon{
+    margin-top: 15px;
+}
+.about-content .icon-list .icon img{
+    width: 5%;
+    border-radius: 50%;
+    border: #d9d9d9 1px solid;
+}
+.about-content .icon-list .icon p{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+
+
+.location{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.location .location-content{
+    width: 40%;
+    float: left;
+    padding: 50px 0px 0px 150px;
+}
+.location .location-image{
+    float: right;
+    width: 45%;
+}
+.location .location-image img{
+    width: 85%;
+}
+.location .location-content p{
+    color: #686868;
+}
+
+
+
+
+.baking{
+    padding-bottom: 100px;
+}
+.baking .baking-head{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.baking .baking-head p{
+    color: #686868;
+}
+.baking .baking-items{
+    text-align: center;
+    margin: auto;
+}
+.baking .baking-items .item img{
+    width: 100%;
+}
+.baking .baking-items .item{
+    display: inline-block;
+    width: 25%;
+    padding: 20px;
+}
+.baking .baking-items .item p{
+    color: #686868;
+}
+
+
+
+
+.contact{
+    padding-bottom: 100px;
+}
+.contact .contact-information{
+    float: left;
+    width: 45%;
+    padding-left: 150px;
+}
+.contact .contact-information p{
+
+    color: #686868;
+    display: inline-block;
+    padding: 10px;
+}
+.contact .contact-details .contact-item img{
+    width: 5%;
+    border-radius: 50%;
+    border: #d9d9d9 1px solid;
+    background-color: #8e7754;
+    float: left;
+}
+.contact .contact-map{
+    float: right;
+    width: 40%;
+    
+}
+
+
+
+.footer{
+    height: 115vh;
+    background-color:#353330 ;
+}
+.footer .footer-details{
+    height: 70vh;
+    background-color: #403d38;
+    
+}
+.footer .footer-details .container{
+    width: 80%;
+    margin: auto;
+    padding: 60px;
+}
+.footer .footer-details .container h3{
+    padding-bottom: 20px;
+    color: white;
+}
+
+.footer .footer-details .container .about-us{
+    float: left;
+    width: 25%;
+}
+.footer .footer-details .container .special{
+    float: left;
+    width: 25%;
+}
+.footer .footer-details .container .open{
+    float: left;
+    width: 25%;
+}
+.footer .footer-details .container .con-details{
+    float: left;
+    width: 25%;
+}
+
+.footer .footer-details .container .special img{
+    width: 5%;
+    color: #8b968a;
+}
+.footer .footer-details .container .open img{
+    width: 5%;
+    color: #8b968a;
+}
+.footer .footer-details .container .con-details img{
+    width: 10%;
+    color: #8b968a;
+}
+.footer .footer-details p{
+    color: #8b968a;
+}
+
+.footer .footer-details .container .special p{
+    padding-bottom: 10px;
+    border-bottom: solid 1px #4a4742;
+    width: 90%;
+}
+.footer .footer-details .container .open p{
+    padding-bottom: 10px;
+    border-bottom: solid 1px #4a4742;
+    width: 90%;
+}
+.footer .footer-details .container .con-details p{
+    padding-bottom: 10px;
+    border-bottom: solid 1px #4a4742;
+    width: 90%;
+}
+#no1,#no2,#no3{
+    border: none;
+}
+
+
+
+.footer .footer-end{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.footer .footer-end .logo{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.footer .footer-end .logo img{
+    width: 25%;
+}
+.footer .footer-end .copyright{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.footer .footer-end .icons{
+    display: inline-block;
+    text-align: center;
+}
+.footer .footer-end .icons img{
+    width: 3%;
+    background-color: #484540;
+    border-radius: 50%;
+
+}
+
+.footer .footer-end  p{
+    color: #a9a9a9;
+}
